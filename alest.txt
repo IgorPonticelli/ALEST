@@ -1,0 +1,3 @@
+EXERCICIOS/ANOTAÇÕES:
+log n = Sempre base 2, binário
+No gráfico cresce lentamente 
