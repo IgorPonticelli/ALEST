@@ -1,3 +1,4 @@
 EXERCICIOS/ANOTAÇÕES:
-log n = Sempre base 2, binário
-No gráfico cresce lentamente 
+log n = Sempre base 2, binário, no gráfico cresce lentamente 
+Busca binária = Divide o array em dois para melhorar a Busca
+
