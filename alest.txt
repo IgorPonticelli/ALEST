@@ -2,3 +2,21 @@ EXERCICIOS/ANOTAÇÕES:
 log n = Sempre base 2, binário, no gráfico cresce lentamente 
 Busca binária = Divide o array em dois para melhorar a Busca
 
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula dia 15/08/2023
+Contagem de número de operações
+
+f1(n) = 2n2 + 5n operações
+
+ f2(n) = 500n + 4000 operações
+
+ F1 é melhor até o valor de n ser 100, após isso o F2 é melhor(Sendo os valores multiplos de 10)
+
+Quando n = 10
+F1 = 250
+F2 = 9000
+
+Quando n = 1000
+F1 = 2005000
+F2 = 2504000
