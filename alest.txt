@@ -31,3 +31,6 @@ Big O significa o pior caso; complexidade mais usada
 
 commit:
 Parou em alest__4
+
+Aula 22/08
+

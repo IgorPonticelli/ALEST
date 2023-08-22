@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "alest_2",
+            "request": "launch",
+            "mainClass": "alest_2",
+            "projectName": "ALEST_cc27e479"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
