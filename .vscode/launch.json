@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "alest_3",
+            "request": "launch",
+            "mainClass": "alest_3",
+            "projectName": "ALEST_6f59a086"
+        },
+        {
+            "type": "java",
             "name": "alest_2",
             "request": "launch",
             "mainClass": "alest_2",
