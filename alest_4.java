@@ -14,7 +14,6 @@ public class alest_4 {
     }
 
     public static void fibonacci( int cont, int[] v ){
-       
         v[0] = 1;
         v[1] = 1;
         v[cont] = v[cont-1] + v[cont -2];
@@ -22,7 +21,6 @@ public class alest_4 {
         if(cont <10){
             fibonacci(cont, v );
         }
-        
     }
 
     public static int fibonacci2(int valor1){ // Pega o valor da sequencia de fibonacci que se pede
