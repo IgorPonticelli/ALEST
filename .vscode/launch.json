@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "app",
+            "request": "launch",
+            "mainClass": "Aula14.app",
+            "projectName": "ALEST_851baa48"
+        },
+        {
+            "type": "java",
+            "name": "alest",
+            "request": "launch",
+            "mainClass": "alest",
+            "projectName": "ALEST_851baa48"
+        },
+        {
+            "type": "java",
             "name": "alest_4",
             "request": "launch",
             "mainClass": "alest_4",
