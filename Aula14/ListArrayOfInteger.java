@@ -8,7 +8,7 @@ public class ListArrayOfInteger{
 
     // Atributos
     private static final int INITIAL_SIZE = 10;
-    private Integer[] data;
+    private Integer[] data; // Integer é um objeto que está dentro de uma colletion
     private int count;
 
     /**
@@ -108,8 +108,28 @@ public class ListArrayOfInteger{
         }
     }
 
-	
+    public boolean remove (Integer a){
+        for(int i = 0;i<count;i++){
+            if(a.equals(data[i])){//Vai checando cada item pra se o item desejado é oq queremos
+                data[i] = data[i+1];
+                for(int j = i; j< count -1; j++){
+                    data[j] = data[j+1];
 
+                }
+                count--; //Diminui o tamanho do array
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public void set (Integer a, int index){
+        if(index  > 0 && index <= count){
+            Integer aux = data[index];
+            data[index] = a;
+            System.out.println("Elemento removido " + aux);
+        }
+    }
 
   
 }
