@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "App2",
+            "request": "launch",
+            "mainClass": "Exercicio_Nodo.App2",
+            "projectName": "ALEST-1_acda3dec"
+        },
+        {
+            "type": "java",
             "name": "app",
             "request": "launch",
             "mainClass": "Aula14.app",

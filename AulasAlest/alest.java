@@ -1,3 +1,4 @@
+package AulasAlest;
 import java.util.*;
 public class alest{
     public static void main(String []args){

@@ -1,3 +1,4 @@
+package AulasAlest;
 public class alest_2 {
     public static void main(String [] args){
         int soma = 0;

@@ -1,3 +1,4 @@
+package AulasAlest;
 public class alest_3 {
     public static void main(String[]args){
        int cont = 0;
