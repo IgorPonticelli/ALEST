@@ -87,6 +87,20 @@ public class List{
 
     }
 
+    public void inserirInicio(Integer element){
+        //Testa se esta vazia
+        Node node2 = new Node(element);
+        if(isEmpty()){
+            count ++;
+            head = node2;
+        }else{
+            head.next = node2;
+        }
+
+        head = node2;
+
+    }
+
 
     class Node {
         private Integer element;
