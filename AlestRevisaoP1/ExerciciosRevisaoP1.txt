@@ -1,0 +1,67 @@
+1) 
+    Se o size() do array for 100, e o número de elemntos for 1/4 do tamanho do array
+    ou seja, se o número de elementos for 25, usamos setCapacity(size/2)
+    assim, ficamos com o array de 50 posições com 25 elementos, se o resto da divisão for != 0
+    então da um math.ceil no resultado de setCapacity()
+
+
+2a)addFirst:
+    1º Verificar se existem elementos no arranjo
+    2º Rodar com um laço do início até o fim da lista
+    3º Deslocar 1 posição para frente para que seja possível inserir na primeira posição
+    4º Inserir na posição 0
+
+2b)removeFirst:
+    1º Verificar se existem elementos no arranjo
+    2º Rodar com um laço do inicio até o fim da lista começando em 1
+    3º Diminuir o índice em 1 para cada iteração do for
+
+3a)addFirst:
+    1º Testa se a lista de nodos está vázia
+    2º Seta a referência do nodo para o next do head
+    3º Seta a referência do head para o nodo que vai ser inserido
+
+3b)removeFirst:
+    1º Testa se a lista de nodos está vázia
+    2º Seta o a referência do head para o next da referência atual
+
+4) 
+    1º Varrer o array fixando os valores do segundo array (n^2)
+    2º Compara se tem igual a cada iteração
+    3º Se for igual armazena em uma variável auxiliar
+    4º Volta para etapa 1 e compara se o valor é igual && maior que auxiliar
+    Logo: O(n^2)
+
+5)
+    1º Fixa uma das listas
+    2º Pega o count da que não foi escolhida
+    3º Aumenta o count da fixada pelo tamanho do count da não fixada
+    4º Inicia um for pelo fim do array fixado (usando o count)
+    5º Insere até o i for 0 armazenando a partir de um contador de iteração, 
+    ou seja ListArrayOfInteger[countIteration] com o contador de iteração
+    começando pelo count da fixada
+
+6) 
+    1º Cria um array auxiliar
+    2º Roda um for que percorre o array, fixa o elemento da primeira posição(Array auxiliar)
+    e compara com o restante do array 
+    3º Através de um segundo for que compara o que foi armazenando
+    com o restante do array, com o teste de ser igual
+    4º Guardando assim os valores repetidos em um segundo array
+
+7)
+
+
+
+10) N^2
+
+11) N^3
+
+12) N
+
+13)
+    1º Fixa um dos arrays
+    2º Varre o segundo comparando com o valor fixado
+    3º Se for igual armazena no arrayC e count++ arrayC[count]
+    Por termos dois for's aninhados logo, N^2
+
