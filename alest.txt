@@ -43,6 +43,23 @@ Consome mais recursos, logo tendem a apresentar um desempenho inferior
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
-Aula 21/09
+Aula 19/10
+
+Sentinela: É um nodo sem valor que não tem como acessar, que serve para pegar o next
+e o anterior a ele, ligando nodos
+
+Header && Trailer(São sentinelas):
+    Ficam nas extremidades, o trailer serve para pegar o anterior a ele, 
+    que por sua vez se torna o último
+
+Insere no final da lista:
+    n nodo a ser alocado
+
+    n.prev = trailer.prev;
+    n.next = trailer;
+
+    trailer.prev.next = n; // O prev do trailer(Exemplo: Nodo2), 
+    o ponteiro do Nodo2 irá apontar para o next dele, que será o n
+
 
 
