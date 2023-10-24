@@ -61,5 +61,10 @@ Insere no final da lista:
     trailer.prev.next = n; // O prev do trailer(Exemplo: Nodo2), 
     o ponteiro do Nodo2 irá apontar para o next dele, que será o n
 
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 24/10
+
+
 
 
