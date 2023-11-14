@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "ALEST_de20ad3d"
+        },
+        {
+            "type": "java",
             "name": "App2",
             "request": "launch",
             "mainClass": "Exercicio_Nodo.App2",
