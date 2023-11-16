@@ -97,7 +97,47 @@ public class BinaryTreeOfInteger {
      * @param element a ser colocado na raiz da arvore.
      */
     public void setRoot(Integer element) {
-         // Implementar
+        if(isEmpty()){
+            throw new InvalidParameterException();
+        }
+        else if(element == null){
+            throw new InvalidParameterException();
+        }
+        else{
+            root.element = element;
+        }
+    }
+
+    private Node searchNodeRef(Integer elem, Node n) {
+        if (n == null)
+            return null;
+
+        // Visita a raiz
+        if (elem.equals(n.element))
+            return n;
+
+        // Visita os filhos
+        Node aux = searchNodeRef(elem, n.left);
+
+        if(aux == null){    //Verifica se o elemento procurado está do lado esquerdo
+            aux = searchNodeRef(elem, n.right); // Se não percorre o lado direito para procurar
+        }
+        return aux;
+       
+    }
+
+    public void addRoot(Integer element){
+        if(isEmpty()){
+            Node n = new Node(element);
+            root = n;
+            count++;
+        }else{
+            throw new InvalidParameterException();
+        }
+    }
+
+    public void addLeft(Integer element){
+         
     }
 
     
